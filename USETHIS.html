@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style type="text/css">
+            * {
+                font-family: "Tahoma";
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Obama Academy CS Club</h1>
+        <p>
+            <b>Welcome!</b>
+        </p>
+        <p id="output">
+        </p>
+        
+        <!-- Anything inside the script tag will be executed as JavaScript code. -->
+        <script>
+            var output = document.getElementById("output");
+            
+            // Example #1 (normal loop)
+            var limit = 10;
+            for(var i = 0; i < limit; i = i + 1) {
+                output.innerHTML = output.innerHTML + i + "<br/>";
+            }
+            
+            // Example #2 (nested loop)
+            /*
+            var limit = 10;
+            for(var i = 0; i < limit; i++) {
+                for(var j = 0; j < limit; j++) {
+                    output.innerHTML += j + " ";
+                }
+                output.innerHTML += "<br/>";
+            }
+            */
+            
+            // Example #3 (decrementing loop)
+            /*
+            var limit = 10;
+            for(var i = limit; i > 0; i--) {
+                output.innerHTML += i + "<br/>";
+            }
+            */
+            
+            // Example #4 (loop with if statement)
+            /*
+            var limit = 10;
+            for(var i = 0; i < limit; i++) {
+                if(i % 2 == 0) {
+                    output.innerHTML += i + ": EVEN <br/>";
+                } else {
+                    output.innerHTML += i + ": ODD <br/>";
+                }
+            }
+            */
+        </script>
+    </body>
+</html>
