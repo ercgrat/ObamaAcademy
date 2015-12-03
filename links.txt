@@ -1,0 +1,9 @@
+http://www.w3schools.com/
+
+https://www.coursera.org/browse/computer-science/software-development?languages=en
+
+https://www.khanacademy.org/computing
+
+https://developer.mozilla.org/en-US/
+
+https://jsfiddle.net/
